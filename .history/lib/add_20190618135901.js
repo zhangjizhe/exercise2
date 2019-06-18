@@ -38,19 +38,6 @@
 //     res = res.reverse().join('').replace(/^0/,'');
 //     return res
 //   }
-function add (a ,b){
-  // 新方法
-  
-  var res = '',
-    temp = 0;
-  a = a.split('');
-  b = b.split('');
-  while (a.length || b.length || temp) {
-    temp += ~~a.pop() + ~~b.pop();
-    res = (temp % 10) + res;
-    temp = temp > 9;
-  }
-  return res.replace(/^0+/, '');
-}
+function add (a ,b)
 
 module.exports = add

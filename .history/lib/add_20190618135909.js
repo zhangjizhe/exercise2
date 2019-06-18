@@ -39,8 +39,6 @@
 //     return res
 //   }
 function add (a ,b){
-  // 新方法
-  
   var res = '',
     temp = 0;
   a = a.split('');
