@@ -1,4 +1,6 @@
 var add = require('../lib/add')
+var del = require('../lib/del')
+
 
 describe('大数相加add方法', function () {
   it('字符串"42329"加上字符串"21532"等于"63861"', function () {
@@ -13,3 +15,12 @@ describe('大数相加add方法', function () {
       .should.equal('1079654173767686669')
   })
 })
+
+describe('减法', function () {
+  it('数字"3"减去"1"等于"2"', function () {
+    del(3, 1)
+      .should.equal(2)
+  })
+
+})
+
