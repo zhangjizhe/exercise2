@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/FE-star/exercise2#readme",
   "devDependencies": {
-    "should": "^11.2.1",
-    "mocha": "^11.2.1"
+    "mocha": "^6.1.4",
+    "should": "^11.2.1"
   }
 }
