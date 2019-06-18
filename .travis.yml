@@ -3,6 +3,6 @@ node_js:
   - "node"
   - "8.9.4"
 install:
-    - "yarn"
+    - "npm"
 test:
-    - "yarn test"
+    - "npm run test"
